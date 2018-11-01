@@ -11,3 +11,30 @@ body{
 .nav-link:hover{
     color: #007bff !important;
 }
+
+.nabar{
+    padding: 3px 90px;
+}
+.get-started{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    background-color: white;
+    width: 50%;
+    height: 700px;
+}
+.img{
+    width: 50%;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+   
+
+}
+.mb-5, .my-5 {
+    margin-bottom: 10rem!important;
+}

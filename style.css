@@ -93,13 +93,14 @@ body{
 }
 .color{
     width: 50%;
-    height: 500px;
+    height: 600px;
 }
 .color1{
     width: 50%;
-    height: 500px;
+    height: 600px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #1a1d1f;
 }
 .color img{
@@ -107,7 +108,7 @@ body{
     height: 100%;
 }
 .book{
-    width: 350px;
+    width: 500px;
     height: 390px;
     display: flex;
     flex-direction: column;
@@ -163,7 +164,7 @@ body{
     justify-content: flex-end;
 }
 .color2 input{
-    width: 330px;
+    width: 480px;
     height: 40px;
     border: 1px solid #777;
     background-color: #1a1d1f;
@@ -171,7 +172,7 @@ body{
     padding: 10px;
 }
 .color3 input{
-    width: 145px;
+    width: 215px;
     height: 40px;
     border: 1px solid #777;
     background-color: #1a1d1f;
@@ -179,7 +180,7 @@ body{
     padding: 10px;
 }
 .color4 input{
-    width: 145px;
+    width: 215px;
     height: 50px;
     border: 1px solid #777;
     background-color: #1a1d1f;
@@ -187,7 +188,7 @@ body{
     padding: 10px;
 }
 .color5 input{
-    width: 330px;
+    width: 480px;
     height: 150px;
     border: 1px solid #777;
     background-color: #1a1d1f;
@@ -494,14 +495,19 @@ h3{
     font-size: 15px;
     font-family: "Poppins", sans-serif;
 }
+
 .footer-social a{
     background-color: #000;
+    color: white;
+    font-size: 10PX;
+    width: 20px;
+    padding: ;
 }
 .footer-social a:hover .footer-social a:active{
     background: -webkit-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
     background: -ms-linear-gradient(0deg, #2380ff 0%, #52fdd9 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-background-color: transparent;
 }
 .single-footer-widget input {
     line-height: 38px;
